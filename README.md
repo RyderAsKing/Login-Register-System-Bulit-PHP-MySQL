@@ -19,4 +19,4 @@ Edit config.php and fill in the database information
   $con = new mysqli($db_host, $db_user, $db_pass, $db_name);
   ...
 ?>
-`
+```
