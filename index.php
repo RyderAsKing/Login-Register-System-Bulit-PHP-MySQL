@@ -14,5 +14,8 @@
 </head>
 <body>
 	<p>Yo, you made it inside!!</p>
+	<a href="logout.php">
+		<button>Logout</button>
+	</a>
 </body>
 </html>
