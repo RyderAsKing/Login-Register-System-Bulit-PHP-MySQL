@@ -10,6 +10,7 @@
 <html>
 <head>
 	<title>Basic Login/Register system by Ryder</title>
+	<link rel="stylesheet" type="text/css" href="includes/css/styles.css">
 </head>
 <body>
 	<p>Yo, you made it inside!!</p>
