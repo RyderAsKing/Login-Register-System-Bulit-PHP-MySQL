@@ -50,6 +50,6 @@ There are only 2 session variables. And are accessed by the following.
 ```php
 <?php
     $_SESSION['email']; //Email of the user that is logged in.
-    $_SESSION['loggedIn']; // True or false to check whether the user is logged  r mpt.
+    $_SESSION['loggedIn']; // True or false to check whether the user is logged or not.
 ?>
 ```
