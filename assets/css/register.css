@@ -1,0 +1,133 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#backgroundContainer{
+	background-position: center;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer * {
+	color: white;
+	font-family: "Helvetica", "sans-serif";
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer { 
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;	
+}
+
+#inputContainer {
+	width: 400px;
+	padding: 45px;
+	float: left;
+	border-right: 4px solid white;
+}
+
+#inputContainer h2{
+	text-align: center;
+}
+
+#inputContainer input[type="text"], #inputContainer input[type="password"], #inputContainer input[type="email"]{
+	margin-top: 5px;
+	display: block;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid white;
+	height: 27px;
+	line-height: 27px;
+	width: 100%;
+}
+
+#inputContainer label {
+	display: block;
+	margin-top: 10px;
+	color: grey; 
+	font-size: 20px;
+}
+#inputContainer button {
+	background-color: transparent;
+	border-radius: 250px;
+	border: 2px solid white;
+	display: block;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 20px auto;
+	width: 100%;
+	height: 40px;
+}
+
+#inputContainer button:hover {
+	cursor: pointer;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    white;
+}
+.hasAccountText span{
+	font-weight: bold;
+	font-size: 15px;
+}
+.hasAccountText{
+	text-align: center;
+}
+#registerForm,
+#loginForm {
+	display: none;
+}
+#loginText{
+	padding: 45px;
+	display: table-cell;
+}
+
+#loginText h1 {
+    color: #4bd411;
+    font-size: 60px;
+    font-weight: bold;
+}
+#loginText h2 {
+	margin: 35px 0;
+}
+#loginText ul {
+	padding: 0;
+}
+#loginText li {
+	font-size: 20px;
+    list-style-type: none;
+    padding: 11px 32px;
+    background: url(https://img.icons8.com/offices/30/000000/checkmark.png) no-repeat 0;
+}
+#inputContainer .errorMessage {
+    color: #4bd411;
+    font-size: 14px;
+}
