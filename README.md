@@ -1,4 +1,6 @@
 # Simple Login/Registration built using PHP and MySQLi.
+## Note
+This project is no longer maintained and not recommended for production.
 
 ## Installation
 Import the SQL file into the MySQL database.
