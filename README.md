@@ -1,8 +1,13 @@
+# Updated on 01/01/2024
+
 # Simple Login/Registration built using PHP and MySQLi.
+
 ## Note
+
 This project is no longer maintained and not recommended for production.
 
 ## Installation
+
 Import the SQL file into the MySQL database.
 
 ```sql
@@ -29,6 +34,7 @@ COMMIT;
 ```
 
 #### How to import?
+
 > phpMyAdmin
 > Access your database via phpMyAdmin (cPanel / Plesk / Managed WordPress).
 > On the left, click the database you want to use.
@@ -36,7 +42,9 @@ COMMIT;
 > Click Browse, locate the SQL file on your computer, click Open, and then click Go.
 
 ### Config
+
 Edit config.php and fill in the database information
+
 ```php
 <?php
   $db_host = "your_host"; // Host
@@ -47,8 +55,11 @@ Edit config.php and fill in the database information
   ...
 ?>
 ```
+
 ### What are the session variables?
+
 There are only 2 session variables. And are accessed by the following.
+
 ```php
 <?php
     $_SESSION['email']; //Email of the user that is logged in.
