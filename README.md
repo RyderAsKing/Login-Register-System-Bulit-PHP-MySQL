@@ -1,4 +1,4 @@
-# Updated on 01/01/2024
+# Updated on 02/01/2024
 
 # Simple Login/Registration built using PHP and MySQLi.
 
